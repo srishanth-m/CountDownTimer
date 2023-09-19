@@ -1,6 +1,63 @@
-/* *{
+*{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-} */
+}
+
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background: url("bckg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    top: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.time{
+    width: 73vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 7vw;
+}
+
+.time div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col{
+    border: 2px solid black;
+    background-color: white;
+    justify-content: center;
+    border-radius: 5px;
+    /* height: 200px; */
+}
+
+.lab{
+    color: white;
+}
+
+input {
+    text-align: center;
+    font-weight: bold;
+  }
+
+input[type="text"]
+{
+    font-size:16px;
+}
+
+
 
